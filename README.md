@@ -1,3 +1,5 @@
-**Otp Resource
+#Resources:
 
-1. https://github.com/seshac/otp-generator
+##For OTP:
+
+######1. https://github.com/seshac/otp-generator
