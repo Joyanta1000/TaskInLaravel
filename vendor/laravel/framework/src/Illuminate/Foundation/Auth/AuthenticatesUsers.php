@@ -5,6 +5,7 @@ namespace Illuminate\Foundation\Auth;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Validation\ValidationException;
+use Seshac\Otp\Models\Otp;
 
 trait AuthenticatesUsers
 {
@@ -37,6 +38,7 @@ trait AuthenticatesUsers
         // the login attempts for this application. We'll key this by the username and
         // the IP address of the client making these requests into this application.
         $is = User::where('phonenumber', $request->phonenumber)->first();
+        
         if($is){
             if($is->is_otp == 0){
                 return redirect()->back()->with('error', 'OTP is not verified');

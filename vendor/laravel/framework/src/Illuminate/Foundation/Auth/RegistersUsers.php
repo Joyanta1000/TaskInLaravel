@@ -43,7 +43,7 @@ trait RegistersUsers
 
         // return $this->registered($request, $user)
         //                 ?: redirect($this->redirectPath());
-        return redirect()->route('auth.otp_verify')->with('success', 'OTP sent to your phone number, otp will be expired in 30 mins');
+        return redirect()->route('auth.otp_verify')->with('success', 'OTP sent to your phone number');
     }
 
     /**
