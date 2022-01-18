@@ -8,3 +8,4 @@ For OTP:
 Documentation:
 Auth Customization, otp verification and logging into dashboard by phone number and password. 
 1. https://docs.google.com/document/d/1_MnQL-cGJhrj-w_4fUOqH2XEwl3Mr2re/edit?usp=sharing&ouid=111196538159476308066&rtpof=true&sd=true
+2. https://mega.nz/file/vowyUD4R#FeQ-iWtNeqmkF5jEqRU3ecDI8poPB5qoH_P4RltPOXc
